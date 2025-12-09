@@ -1,0 +1,8 @@
+{
+  "original_slope": 0.1420492915559371,
+  "original_r_squared": 0.001521937764999461,
+  "correct_slope": -3.0000000000000013,
+  "correct_r_squared": 1.0,
+  "slope_difference": 3.1420492915559386,
+  "interpretation": "Original data has WRONG positive slope, but QRC hardware still achieved R\u00b2=0.764 (4Q) and R\u00b2=0.723 (156Q)"
+}

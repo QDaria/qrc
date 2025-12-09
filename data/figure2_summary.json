@@ -1,0 +1,34 @@
+{
+  "figure": "Figure 2: Forecast Trajectories",
+  "systems": [
+    {
+      "name": "IBM 4Q",
+      "label": "ibm_4q",
+      "r2": 0.764,
+      "tau_lyapunov": 1.7,
+      "color_pred": "#d62728",
+      "seed": 42
+    },
+    {
+      "name": "IBM 156Q",
+      "label": "ibm_156q",
+      "r2": 0.723,
+      "tau_lyapunov": 1.8,
+      "color_pred": "#ff7f0e",
+      "seed": 43
+    },
+    {
+      "name": "Rigetti 9Q (simulation)",
+      "label": "rigetti_9q",
+      "r2": 0.936,
+      "tau_lyapunov": 15.2,
+      "color_pred": "#2ca02c",
+      "seed": 44
+    }
+  ],
+  "ground_truth_length": 20,
+  "forecast_length": 20,
+  "lyapunov_time_timesteps": 4.087,
+  "data_source": "../01_original_data/training_spectral.npy",
+  "actual_rigetti_data_used": true
+}

@@ -1,0 +1,65 @@
+{
+  "system": "Lorenz-63",
+  "methodology": "Steinegger_Rath_2025",
+  "timestamp": "2025-12-07T16:52:26.947687",
+  "specs": {
+    "n_qubits": 9,
+    "topology": "3x3_square_lattice",
+    "simulation": "Qiskit_Aer"
+  },
+  "qrc_config": {
+    "n_qubits": 9,
+    "n_layers": 8,
+    "V": 5,
+    "r": 3,
+    "G": 4,
+    "scale_range": [
+      0,
+      1
+    ],
+    "random_seed": 42
+  },
+  "train_config": {
+    "n_samples": 100,
+    "test_size": 0.2,
+    "ridge_alphas": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "random_state": 42
+  },
+  "chaotic_system": {
+    "system": "Lorenz-63",
+    "sigma": 10.0,
+    "rho": 28.0,
+    "beta": 2.6666666666666665,
+    "dt": 0.01,
+    "n_timesteps": 10000,
+    "spinup": 1000,
+    "lyapunov_exponent": 0.906,
+    "lyapunov_time": 1.104,
+    "correlation_dimension": 2.06,
+    "statistics": {
+      "x_mean": -1.292544255022511,
+      "x_std": 7.815684225351716,
+      "y_mean": -1.2884174745134154,
+      "y_std": 8.921469339080579,
+      "z_mean": 23.55601908613784,
+      "z_std": 8.605506094555192
+    }
+  },
+  "performance": {
+    "r2": 0.7955765012092059,
+    "energy_correlation": 0.8741191372363538,
+    "best_alpha": 0.001,
+    "forecast_horizon_lyapunov_times": 4.372764755740415,
+    "n_train": 80,
+    "n_test": 20,
+    "n_features": 3375
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "system": "Rigetti_Novera_9Q",
+  "methodology": "Steinegger_Rath_2025",
+  "timestamp": "2025-12-09T21:07:52.070805",
+  "specs": {
+    "n_qubits": 9,
+    "topology": "3x3_square_lattice",
+    "gate_fidelity_2q": 0.99,
+    "n_couplers": 12,
+    "architecture": "Ankaa_4th_gen",
+    "price_usd": 900000
+  },
+  "qrc_config": {
+    "n_qubits": 9,
+    "n_layers": 8,
+    "V": 5,
+    "r": 3,
+    "G": 4,
+    "scale_range": [
+      0,
+      1
+    ],
+    "random_seed": 42
+  },
+  "train_config": {
+    "n_samples": 800,
+    "test_size": 0.2,
+    "ridge_alphas": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "random_state": 42
+  },
+  "turbulence": {
+    "file": "training_spectral.npy",
+    "note": "Original data (same as IBM 4Q/156Q)",
+    "lyapunov_time": 4.086895199549817,
+    "lambda_max": 0.2446845223998288
+  },
+  "performance": {
+    "r2": 0.9590615163145345,
+    "energy_correlation": 0.857211000769685,
+    "best_alpha": 0.1,
+    "forecast_horizon_lyapunov_times": 23.92341072633598,
+    "forecast_horizon_timesteps": 97.77247245432112,
+    "n_train": 640,
+    "n_test": 160,
+    "n_features": 3375
+  }
+}

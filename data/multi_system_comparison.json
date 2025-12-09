@@ -1,0 +1,206 @@
+{
+  "timestamp": "2025-12-07T16:52:26.947687",
+  "methodology": "Steinegger_Rath_2025",
+  "n_systems": 3,
+  "systems": [
+    "lorenz63",
+    "rossler",
+    "turbulence"
+  ],
+  "summary": {
+    "average_r2": 0.9082,
+    "best_system": "rossler",
+    "worst_system": "lorenz63"
+  },
+  "detailed_results": {
+    "lorenz63": {
+      "system": "Lorenz-63",
+      "methodology": "Steinegger_Rath_2025",
+      "timestamp": "2025-12-07T16:52:26.947687",
+      "specs": {
+        "n_qubits": 9,
+        "topology": "3x3_square_lattice",
+        "simulation": "Qiskit_Aer"
+      },
+      "qrc_config": {
+        "n_qubits": 9,
+        "n_layers": 8,
+        "V": 5,
+        "r": 3,
+        "G": 4,
+        "scale_range": [
+          0,
+          1
+        ],
+        "random_seed": 42
+      },
+      "train_config": {
+        "n_samples": 100,
+        "test_size": 0.2,
+        "ridge_alphas": [
+          0.001,
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0,
+          1000.0
+        ],
+        "random_state": 42
+      },
+      "chaotic_system": {
+        "system": "Lorenz-63",
+        "sigma": 10.0,
+        "rho": 28.0,
+        "beta": 2.6666666666666665,
+        "dt": 0.01,
+        "n_timesteps": 10000,
+        "spinup": 1000,
+        "lyapunov_exponent": 0.906,
+        "lyapunov_time": 1.104,
+        "correlation_dimension": 2.06,
+        "statistics": {
+          "x_mean": -1.292544255022511,
+          "x_std": 7.815684225351716,
+          "y_mean": -1.2884174745134154,
+          "y_std": 8.921469339080579,
+          "z_mean": 23.55601908613784,
+          "z_std": 8.605506094555192
+        }
+      },
+      "performance": {
+        "r2": 0.7955765012092059,
+        "energy_correlation": 0.8741191372363538,
+        "best_alpha": 0.001,
+        "forecast_horizon_lyapunov_times": 4.372764755740415,
+        "n_train": 80,
+        "n_test": 20,
+        "n_features": 3375
+      }
+    },
+    "rossler": {
+      "system": "Rossler",
+      "methodology": "Steinegger_Rath_2025",
+      "timestamp": "2025-12-07T16:52:27.346187",
+      "specs": {
+        "n_qubits": 9,
+        "topology": "3x3_square_lattice",
+        "simulation": "Qiskit_Aer"
+      },
+      "qrc_config": {
+        "n_qubits": 9,
+        "n_layers": 8,
+        "V": 5,
+        "r": 3,
+        "G": 4,
+        "scale_range": [
+          0,
+          1
+        ],
+        "random_seed": 42
+      },
+      "train_config": {
+        "n_samples": 100,
+        "test_size": 0.2,
+        "ridge_alphas": [
+          0.001,
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0,
+          1000.0
+        ],
+        "random_state": 42
+      },
+      "chaotic_system": {
+        "system": "Rossler",
+        "a": 0.2,
+        "b": 0.2,
+        "c": 5.7,
+        "dt": 0.1,
+        "n_timesteps": 10000,
+        "spinup": 1000,
+        "lyapunov_exponent": 0.071,
+        "lyapunov_time": 14.08,
+        "correlation_dimension": 2.01,
+        "statistics": {
+          "x_mean": 0.17510631436520183,
+          "x_std": 5.154933083581197,
+          "y_mean": -0.8838292790418549,
+          "y_std": 4.840041816733904,
+          "z_mean": 0.8903922644080295,
+          "z_std": 2.847216765306764
+        }
+      },
+      "performance": {
+        "r2": 0.9688963442000359,
+        "energy_correlation": 0.9711523360284688,
+        "best_alpha": 0.1,
+        "forecast_horizon_lyapunov_times": 31.64792844946245,
+        "n_train": 80,
+        "n_test": 20,
+        "n_features": 3375
+      }
+    },
+    "turbulence": {
+      "system": "Turbulence",
+      "methodology": "Steinegger_Rath_2025",
+      "timestamp": "2025-12-04T23:29:59.088474",
+      "specs": {
+        "n_qubits": 9,
+        "topology": "3x3_square_lattice",
+        "gate_fidelity_2q": 0.99,
+        "n_couplers": 12,
+        "architecture": "Ankaa_4th_gen",
+        "price_usd": 900000
+      },
+      "qrc_config": {
+        "n_qubits": 9,
+        "n_layers": 8,
+        "V": 5,
+        "r": 3,
+        "G": 4,
+        "scale_range": [
+          0,
+          1
+        ],
+        "random_seed": 42
+      },
+      "train_config": {
+        "n_samples": 800,
+        "test_size": 0.2,
+        "ridge_alphas": [
+          0.001,
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0,
+          1000.0
+        ],
+        "random_state": 42
+      },
+      "chaotic_system": {
+        "system": "2D Kolmogorov Turbulence",
+        "description": "2D forced turbulence with inverse energy cascade",
+        "lyapunov_exponent": 0.245,
+        "lyapunov_time": 4.087,
+        "scaling": "Kraichnan k^-3",
+        "reynolds_number": 4000,
+        "source_file": "training_spectral.npy",
+        "note": "Same turbulence data as IBM 4Q/156Q experiments"
+      },
+      "performance": {
+        "r2": 0.9591,
+        "energy_correlation": 0.8572,
+        "best_alpha": 0.1,
+        "forecast_horizon_lyapunov_times": 23.92,
+        "forecast_horizon_timesteps": 97.8,
+        "n_train": 640,
+        "n_test": 160,
+        "n_features": 3375
+      }
+    }
+  }
+}

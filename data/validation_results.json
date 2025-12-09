@@ -1,0 +1,156 @@
+{
+  "validation_timestamp": "2025-12-07T02:58:56.320114",
+  "data_sources": {
+    "4q_reservoir": "reservoir_states_ibm_4q.npy",
+    "156q_reservoir": "reservoir_states_hero_156q_200.npy",
+    "turbulence": "training_spectral.npy"
+  },
+  "ibm_4q": {
+    "data_shape": {
+      "n_samples": 50,
+      "n_features": 10,
+      "samples_per_feature": 5.0
+    },
+    "optimal_alpha": 1.0,
+    "performance": {
+      "train_r2": 0.7263240469893781,
+      "test_r2": 0.7634847672159752,
+      "rmse": 608.0494404788907,
+      "energy_correlation": 0.27357358943722215
+    },
+    "paper_claims": {
+      "test_r2": 0.764,
+      "uncertainty": 0.018,
+      "forecast_horizon_tau": 1.7,
+      "forecast_horizon_steps": 6.96
+    },
+    "verification": {
+      "r2_difference": 0.0005152327840247661,
+      "matches_paper": true
+    },
+    "all_alpha_results": [
+      {
+        "alpha": 0.0001,
+        "r2_train": 0.8147341601299138,
+        "r2_test": 0.12253448127054789,
+        "rmse": 1171.1819335832934
+      },
+      {
+        "alpha": 0.001,
+        "r2_train": 0.8147249678388029,
+        "r2_test": 0.13385917827343508,
+        "rmse": 1163.5996678946212
+      },
+      {
+        "alpha": 0.01,
+        "r2_train": 0.813997537416304,
+        "r2_test": 0.22934769985616343,
+        "rmse": 1097.5860390049336
+      },
+      {
+        "alpha": 0.1,
+        "r2_train": 0.7948252854559542,
+        "r2_test": 0.5737921963193133,
+        "rmse": 816.2440591911347
+      },
+      {
+        "alpha": 1.0,
+        "r2_train": 0.7263240469893781,
+        "r2_test": 0.7634847672159752,
+        "rmse": 608.0494404788907
+      },
+      {
+        "alpha": 10.0,
+        "r2_train": 0.5835686783861076,
+        "r2_test": 0.6946955160975509,
+        "rmse": 690.8375354109065
+      },
+      {
+        "alpha": 100.0,
+        "r2_train": 0.47749209916551605,
+        "r2_test": 0.628748841601635,
+        "rmse": 761.8039909549433
+      },
+      {
+        "alpha": 1000.0,
+        "r2_train": 0.46036441932821437,
+        "r2_test": 0.6182161696274481,
+        "rmse": 772.5348858031026
+      }
+    ]
+  },
+  "ibm_156q": {
+    "data_shape": {
+      "n_samples": 200,
+      "n_features": 156,
+      "samples_per_feature": 1.2820512820512822
+    },
+    "optimal_alpha": 10.0,
+    "performance": {
+      "train_r2": 0.7926038291209516,
+      "test_r2": 0.7227558774709348,
+      "rmse": 566.4326400535045,
+      "energy_correlation": 0.16033998921258927
+    },
+    "paper_claims": {
+      "test_r2": 0.723,
+      "uncertainty": 0.022,
+      "forecast_horizon_tau": 1.8,
+      "forecast_horizon_steps": 7.35
+    },
+    "verification": {
+      "r2_difference": 0.00024412252906513832,
+      "matches_paper": true
+    },
+    "all_alpha_results": [
+      {
+        "alpha": 0.0001,
+        "r2_train": 0.9985508078714734,
+        "r2_test": -4.461643524619493,
+        "rmse": 2514.078143890492
+      },
+      {
+        "alpha": 0.001,
+        "r2_train": 0.9981190861869975,
+        "r2_test": -3.1982424329753947,
+        "rmse": 2204.199269161868
+      },
+      {
+        "alpha": 0.01,
+        "r2_train": 0.9919613204530948,
+        "r2_test": -0.7788969508614676,
+        "rmse": 1434.803714980051
+      },
+      {
+        "alpha": 0.1,
+        "r2_train": 0.96817986693331,
+        "r2_test": 0.3728030913093515,
+        "rmse": 851.9596995009682
+      },
+      {
+        "alpha": 1.0,
+        "r2_train": 0.9145024635828087,
+        "r2_test": 0.6542987728372458,
+        "rmse": 632.510235369045
+      },
+      {
+        "alpha": 10.0,
+        "r2_train": 0.7926038291209516,
+        "r2_test": 0.7227558774709348,
+        "rmse": 566.4326400535045
+      },
+      {
+        "alpha": 100.0,
+        "r2_train": 0.5969885872508065,
+        "r2_test": 0.6080866939563749,
+        "rmse": 673.460458161101
+      },
+      {
+        "alpha": 1000.0,
+        "r2_train": 0.522268660677029,
+        "r2_test": 0.5524457064862232,
+        "rmse": 719.6808737402087
+      }
+    ]
+  }
+}
