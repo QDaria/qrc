@@ -442,7 +442,7 @@ The superior performance on Rössler ($R^2=0.969$ vs $R^2=0.796$ for Lorenz-63) 
 
 \begin{figure*}[!htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{phase_space_attractors.pdf}
+\includegraphics[width=0.92\textwidth]{figures/figure7_steinegger_flowchart.png}
 \caption{Phase space trajectories of canonical chaotic attractors. \textbf{Left:} Lorenz-63 butterfly attractor with fast chaotic dynamics ($\lambda=0.906$). \textbf{Center:} Rössler attractor with slower chaos ($\lambda=0.071$). \textbf{Right:} x-y projection comparison. Color gradients indicate temporal evolution.}
 \label{fig:phase_space_attractors}
 \end{figure*}
@@ -451,7 +451,7 @@ The superior performance on Rössler ($R^2=0.969$ vs $R^2=0.796$ for Lorenz-63) 
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\columnwidth]{multi_system_performance.png}
+\includegraphics[width=\columnwidth]{figures/figure3_sample_efficiency.png}
 \caption{Multi-system QRC performance comparison across three chaotic systems. Left: Test R² scores showing consistent prediction accuracy. Right: Forecast horizons in Lyapunov times, demonstrating that slower chaos (Rössler, $\lambda=0.071$) enables longer prediction horizons than fast chaos (Lorenz-63, $\lambda=0.906$). All systems use identical 9Q QRC configuration with Steinegger-Räth feature engineering.}
 \label{fig:multisystem_performance}
 \end{figure}
@@ -529,7 +529,7 @@ Table~\ref{tab:9q_results} shows excellent performance: $R^2=0.959$ with 0.19 sa
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\columnwidth]{figure_lyapunov_forecast_3panel.pdf}
+\includegraphics[width=\columnwidth]{figures/figure6_lyapunov_comparison.png}
 \caption{Lyapunov time forecast horizons for 4Q, 156Q, and 9Q systems. The 9-qubit simulated system achieves 14× longer forecast horizon (23.9 Lyapunov times) compared to hardware implementations, demonstrating superior predictability through polynomial feature engineering.}
 \label{fig:lyapunov_comparison}
 \end{figure}
@@ -548,7 +548,7 @@ This represents forecasting \textbf{3.1 eddy turnover times} into the future, wh
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\columnwidth]{figure_energy_spectrum_4panel.pdf}
+\includegraphics[width=\columnwidth]{figures/figure9_spectral_energy.png}
 \caption{Energy spectrum reconstruction quality across wavenumber bins for (a) 4Q hardware, (b) 156Q hardware, (c) 9Q simulation showing Kolmogorov cascade, and (d) wavenumber-resolved reconstruction error. The 9Q system accurately captures the $k^{-3}$ scaling while hardware systems show degraded spectral fidelity.}
 \label{fig:energy_spectrum}
 \end{figure}
@@ -631,7 +631,7 @@ We measure how well each system preserves the spectral slope $\alpha$ (from $E(k
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\columnwidth]{figure_performance_scaling_4panel.pdf}
+\includegraphics[width=\columnwidth]{figures/figure5_ablation_study.png}
 \caption{Performance scaling analysis: (a) R² vs qubit count showing diminishing returns, (b) samples-per-feature ratio decline with system size, (c) feature dimensionality explosion, and (d) forecast horizon comparison. The optimal performance region is 8-16 qubits for current data availability.}
 \label{fig:performance_scaling}
 \end{figure}
@@ -702,7 +702,7 @@ The time-evolving spectral data used for IBM hardware validation exhibits non-ca
 
 \begin{figure*}[!htbp]
 \centering
-\includegraphics[width=0.92\textwidth]{spectral_slope_comparison.pdf}
+\includegraphics[width=0.92\textwidth]{figures/figure8_learning_curves.png}
 \caption{Spectral slope comparison. \textbf{(A)} Log-log energy spectra: training data (red) exhibits high variability with near-flat measured slope ($\alpha \approx +0.14$, $R^2=0.002$) in the inertial range, contrasting sharply with theoretical Kolmogorov scaling ($k^{-3}$, blue, $R^2=1.0$). Reference lines show unphysical positive $k^{+1.38}$ trend (dashed red) vs.\ theory (dashed blue). \textbf{(B)} Linear regression in log-log space confirms the spectral mismatch. Despite non-physical training data, IBM hardware achieved $R^2=0.764$ (4Q) and $R^2=0.723$ (156Q), validating QRC methodology; 9Q simulation achieved $R^2=0.959$ through polynomial feature engineering.}
 \label{fig:spectral_slope_comparison}
 \end{figure*}
