@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,118 +973,17 @@ LaTeX Font Info:    Trying to load font information for U+euf on input line 56.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-
-LaTeX Warning: Citation `kubota2023qrc' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `senanian2024largescale' on page 1 undefined on input l
-ine 65.
-
-
-LaTeX Warning: Citation `ibm2024eagle' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `rigetti2024novera' on page 1 undefined on input line 7
-2.
-
-
-LaTeX Warning: Citation `arute2019quantum' on page 1 undefined on input line 72
-.
-
-
-LaTeX Warning: Citation `biamonte2017quantum' on page 1 undefined on input line
- 72.
-
-
-LaTeX Warning: Citation `schuld2021effect' on page 1 undefined on input line 72
-.
-
-
-LaTeX Warning: Citation `havlicek2019supervised' on page 1 undefined on input l
-ine 72.
-
-
-LaTeX Warning: Citation `preskill2018quantum' on page 1 undefined on input line
- 72.
-
-
-LaTeX Warning: Citation `bharti2022noisy' on page 1 undefined on input line 72.
-
-
-
-LaTeX Warning: Citation `kandala2019error' on page 1 undefined on input line 72
-.
-
-
-LaTeX Warning: Citation `temme2017error' on page 1 undefined on input line 72.
-
-
-LaTeX Warning: Citation `mcclean2018barren' on page 1 undefined on input line 7
-4.
-
-
-LaTeX Warning: Citation `cerezo2021variational' on page 1 undefined on input li
-ne 74.
-
-
-LaTeX Warning: Citation `fujii2017harnessing' on page 1 undefined on input line
- 74.
-
-
-LaTeX Warning: Citation `ghosh2019quantum' on page 1 undefined on input line 74
-.
-
-
-LaTeX Warning: Citation `mujal2021opportunities' on page 1 undefined on input l
-ine 74.
-
-
-LaTeX Warning: Citation `chen2020temporal' on page 1 undefined on input line 74
-.
-
-
-LaTeX Warning: Citation `nokkala2021gaussian' on page 1 undefined on input line
- 74.
-
-
-LaTeX Warning: Citation `lorenz1963deterministic' on page 1 undefined on input 
-line 74.
-
-
-LaTeX Warning: Citation `eckmann1985ergodic' on page 1 undefined on input line 
-74.
-
-
-LaTeX Warning: Citation `pathak2018model' on page 1 undefined on input line 74.
-
-
-
-LaTeX Warning: Citation `pathak2017using' on page 1 undefined on input line 74.
-
-
-
-LaTeX Warning: Citation `vlachas2018data' on page 1 undefined on input line 74.
-
-
-
-
-
-LaTeX Warning: Citation `negoro2018machine' on page 1 undefined on input line 7
-8.
-
-
-LaTeX Warning: Citation `fujii2017harnessing' on page 1 undefined on input line
- 78.
-
-
-LaTeX Warning: Citation `steinegger2025quantum' on page 1 undefined on input li
-ne 86.
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 86--87
-[]\OT1/ptm/m/n/10 Applied Steinegger-R[]ath method-ol-ogy [\OT1/ptm/b/n/10 ?\OT
-1/ptm/m/n/10 ] to high-
+Underfull \hbox (badness 1721) in paragraph at lines 72--73
+\OT1/ptm/m/n/10 larger qubit counts im-plic-itly as-sumes that more quan-
  []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 72--73
+\OT1/ptm/m/n/10 tion per-vades in-vest-ment de-ci-sions, re-search di-rec-tions
+,
+ []
+
+
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 9.
@@ -1092,72 +991,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation `rigetti2024novera' on page 1 undefined on input line 8
-9.
-
-
-LaTeX Warning: Citation `kubota2023qrc' on page 1 undefined on input line 95.
-
-
-LaTeX Warning: Citation `senanian2024largescale' on page 1 undefined on input l
-ine 95.
-
-
-
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
 
-LaTeX Warning: Citation `steinegger2025quantum' on page 2 undefined on input li
-ne 101.
-
-
-LaTeX Warning: Citation `jaeger2001echo' on page 2 undefined on input line 111.
-
-
-
-LaTeX Warning: Citation `maass2002real' on page 2 undefined on input line 111.
-
-
-LaTeX Warning: Citation `larger2017high' on page 2 undefined on input line 111.
-
-
-
-LaTeX Warning: Citation `tanaka2019recent' on page 2 undefined on input line 11
-1.
-
-
-LaTeX Warning: Citation `lukosevicius2009reservoir' on page 2 undefined on inpu
-t line 118.
-
-
-LaTeX Warning: Citation `bishop2006pattern' on page 2 undefined on input line 1
-18.
-
-
-LaTeX Warning: Citation `makridakis2018statistical' on page 2 undefined on inpu
-t line 118.
-
-
-LaTeX Warning: Citation `fujii2017harnessing' on page 2 undefined on input line
- 122.
-
-
-LaTeX Warning: Citation `schuld2021effect' on page 2 undefined on input line 12
-4.
-
-
-LaTeX Warning: Citation `cerezo2021variational' on page 2 undefined on input li
-ne 138.
-
-
-LaTeX Warning: Citation `steinegger2025quantum' on page 2 undefined on input li
-ne 152.
-
-
-
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 156.
@@ -1181,59 +1020,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 178.
-
-
-LaTeX Warning: Citation `strogatz2018nonlinear' on page 2 undefined on input li
-ne 203.
-
-
-LaTeX Warning: Citation `pathak2018model' on page 2 undefined on input line 203
-.
 
 
 
 [2]
-<figures/figure4_topology_comparison.png, id=368, 932.5239pt x 431.211pt>
+<figures/figure4_topology_comparison.png, id=435, 932.5239pt x 431.211pt>
 File: figures/figure4_topology_comparison.png Graphic file (type png)
 <use figures/figure4_topology_comparison.png>
 Package pdftex.def Info: figures/figure4_topology_comparison.png  used on input
  line 239.
 (pdftex.def)             Requested size: 474.71906pt x 219.51991pt.
 
-
-LaTeX Warning: Citation `rigetti2024novera' on page 3 undefined on input line 2
-48.
-
-
 Underfull \hbox (badness 2012) in paragraph at lines 248--249
  \OT1/ptm/m/it/10 1) Rigetti Novera 9Q Spec-i-fi-ca-tions: [][][] \OT1/ptm/m/n/
 10 Sim-u-lated us-ing
  []
 
-
-LaTeX Warning: Citation `vidal2003efficient' on page 3 undefined on input line 
-257.
-
-
-LaTeX Warning: Citation `orus2014practical' on page 3 undefined on input line 2
-57.
-
-
-LaTeX Warning: Citation `pope2000turbulent' on page 3 undefined on input line 2
-64.
-
-
-LaTeX Warning: Citation `kraichnan1967inertial' on page 3 undefined on input li
-ne 264.
-
-
-LaTeX Warning: Citation `boffetta2012two' on page 3 undefined on input line 264
-.
-
-
-
-
-LaTeX Warning: Citation `hoerl1970ridge' on page 3 undefined on input line 285.
 
 
 
@@ -1250,7 +1052,7 @@ Underfull \hbox (badness 2261) in paragraph at lines 325--326
 10 = (\OT1/cmr/bx/n/10 H[]H[] \OT1/cmr/m/n/10 +
  []
 
-<figures/figure1_performance_comparison.png, id=370, 860.013pt x 354.8457pt>
+<figures/figure1_performance_comparison.png, id=443, 860.013pt x 354.8457pt>
 File: figures/figure1_performance_comparison.png Graphic file (type png)
 <use figures/figure1_performance_comparison.png>
 Package pdftex.def Info: figures/figure1_performance_comparison.png  used on in
@@ -1260,16 +1062,12 @@ put line 354.
 
 [3 <./figures/figure4_topology_comparison.png>]
 
-<figures/figure2_forecast_trajectories.png, id=383, 871.8171pt x 713.064pt>
+<figures/figure2_forecast_trajectories.png, id=460, 871.8171pt x 713.064pt>
 File: figures/figure2_forecast_trajectories.png Graphic file (type png)
 <use figures/figure2_forecast_trajectories.png>
 Package pdftex.def Info: figures/figure2_forecast_trajectories.png  used on inp
 ut line 415.
 (pdftex.def)             Requested size: 474.71906pt x 388.26944pt.
-
-LaTeX Warning: Citation `lorenz1963deterministic' on page 4 undefined on input 
-line 431.
-
 
 
 [4]
@@ -1365,18 +1163,6 @@ Underfull \hbox (badness 1852) in paragraph at lines 619--620
  []
 
 
-LaTeX Warning: Citation `zimmermann2020observing' on page 8 undefined on input 
-line 624.
-
-
-LaTeX Warning: Citation `brunton2020machine' on page 8 undefined on input line 
-626.
-
-
-LaTeX Warning: Citation `duraisamy2019turbulence' on page 8 undefined on input 
-line 626.
-
-
 LaTeX Warning: File `figure_performance_scaling_4panel.pdf' not found on input 
 line 634.
 
@@ -1394,17 +1180,8 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `vapnik1998statistical' on page 8 undefined on input li
-ne 644.
-
-
 
 [8]
-
-LaTeX Warning: Citation `goodfellow2016deep' on page 9 undefined on input line 
-686.
-
-
 
 
 LaTeX Warning: File `spectral_slope_comparison.pdf' not found on input line 705
@@ -1428,10 +1205,6 @@ If that doesn't work, type  X <return>  to quit.
 [9]
 
 
-LaTeX Warning: Citation `rigetti2024novera' on page 10 undefined on input line 
-760.
-
-
 
 [10]
 Underfull \hbox (badness 1874) in paragraph at lines 806--807
@@ -1442,21 +1215,16 @@ rgh
 
 
 
-LaTeX Warning: Citation `kubota2023qrc' on page 11 undefined on input line 818.
-
-
-
-LaTeX Warning: Citation `senanian2024largescale' on page 11 undefined on input 
-line 818.
-
-
 
 [11]
 
 
 
-[12]
-No file qrc_paper.bbl.
+[12] (./qrc_paper.bbl
+
+
+
+[13])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1472,28 +1240,24 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[13
+[14
 
 ] (./qrc_paper.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `qrc_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 5C2BAE321506790D80275B40EEC6D79E;15823.
+(rerunfilecheck)             Checksum: 69B07E7E177FF96535A752180C85E67D;15918.
  ) 
 Here is how much of TeX's memory you used:
- 27622 strings out of 473190
- 546862 string characters out of 5715800
- 978872 words of memory out of 5000000
- 50191 multiletter control sequences out of 15000+600000
- 611014 words of font info for 152 fonts, out of 8000000 for 9000
+ 27684 strings out of 473190
+ 548186 string characters out of 5715800
+ 981977 words of memory out of 5000000
+ 50202 multiletter control sequences out of 15000+600000
+ 612150 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,20n,94p,1586b,1601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,20n,94p,1583b,1601s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1523,10 +1287,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on qrc_paper.pdf (13 pages, 1425111 bytes).
+Output written on qrc_paper.pdf (14 pages, 1435850 bytes).
 PDF statistics:
- 661 PDF objects out of 1000 (max. 8388607)
- 576 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 660 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 778 PDF objects out of 1000 (max. 8388607)
+ 691 compressed objects within 7 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 668 words of extra memory for PDF output out of 10000 (max. 10000000)
 
