@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,12 +1071,12 @@ ut line 415.
 
 
 [4]
-<figures/figure7_steinegger_flowchart.png, id=474, 852.5451pt x 717.1593pt>
+<figures/figure7_steinegger_flowchart.png, id=474, 852.5451pt x 715.473pt>
 File: figures/figure7_steinegger_flowchart.png Graphic file (type png)
 <use figures/figure7_steinegger_flowchart.png>
 Package pdftex.def Info: figures/figure7_steinegger_flowchart.png  used on inpu
 t line 445.
-(pdftex.def)             Requested size: 474.71906pt x 399.33034pt.
+(pdftex.def)             Requested size: 474.71906pt x 398.39137pt.
 <figures/figure3_sample_efficiency.png, id=475, 715.473pt x 498.1812pt>
 File: figures/figure3_sample_efficiency.png Graphic file (type png)
 <use figures/figure3_sample_efficiency.png>
@@ -1223,7 +1223,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on qrc_paper.pdf (13 pages, 3180982 bytes).
+Output written on qrc_paper.pdf (13 pages, 3179977 bytes).
 PDF statistics:
  786 PDF objects out of 1000 (max. 8388607)
  688 compressed objects within 7 object streams
