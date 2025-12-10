@@ -54,16 +54,16 @@ Email: mo@qdaria.com}
 
 \maketitle
 
+\begin{abstract}
+We present the largest quantum reservoir computing (QRC) demonstration on real quantum hardware to date, comparing 4-qubit and 156-qubit experimental IBM systems (Heron r3) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology. On time-evolving spectral data, we achieve $R^2=0.764$ (4Q, 50 samples) and $R^2=0.723$ (156Q, 200 samples), surpassing previous experimental demonstrations of 120 qubits \cite{kubota2023qrc} and 108 qubits \cite{senanian2024largescale}. To validate QRC generalizability across chaotic regimes, we demonstrate multi-system validation on canonical chaotic attractors: Lorenz-63 ($R^2=0.796$, $\lambda=0.906$) and Rössler ($R^2=0.969$, $\lambda=0.071$), achieving average $R^2=0.908$ across systems spanning a 13$\times$ range in Lyapunov exponents. While these results validate QRC methodology on complex dynamics, direct comparison reveals sample efficiency challenges: the 156-qubit system operates at 1.28 samples/feature versus 5.0 for 4Q. Meanwhile, simulated 9-qubit Rigetti Novera achieves $R^2=0.959$ on the same spectral evolution data through polynomial feature engineering (3,375 features, 0.19 samples/feature with ridge regularization), demonstrating that sophisticated readout strategies can overcome data quality limitations. We identify optimal qubit counts of 8-16 for current data availability and provide the first validation of QRC on 156-qubit NISQ hardware, with implications for quantum machine learning resource allocation.
+\end{abstract}
+
 \begin{IEEEkeywords}
 Quantum reservoir computing, sample efficiency, turbulence forecasting, NISQ devices, feature engineering, hardware scaling, quantum machine learning, IBM Heron, Rigetti Novera
 \end{IEEEkeywords}
 
 % Nomenclature moved to nomenclature.tex for reuse
 % Include with: \input{nomenclature}
-
-\begin{abstract}
-We present the largest quantum reservoir computing (QRC) demonstration on real quantum hardware to date, comparing 4-qubit and 156-qubit experimental IBM systems (Heron r3) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology. On time-evolving spectral data, we achieve $R^2=0.764$ (4Q, 50 samples) and $R^2=0.723$ (156Q, 200 samples), surpassing previous experimental demonstrations of 120 qubits \cite{kubota2023qrc} and 108 qubits \cite{senanian2024largescale}. To validate QRC generalizability across chaotic regimes, we demonstrate multi-system validation on canonical chaotic attractors: Lorenz-63 ($R^2=0.796$, $\lambda=0.906$) and Rössler ($R^2=0.969$, $\lambda=0.071$), achieving average $R^2=0.908$ across systems spanning a 13$\times$ range in Lyapunov exponents. While these results validate QRC methodology on complex dynamics, direct comparison reveals sample efficiency challenges: the 156-qubit system operates at 1.28 samples/feature versus 5.0 for 4Q. Meanwhile, simulated 9-qubit Rigetti Novera achieves $R^2=0.959$ on the same spectral evolution data through polynomial feature engineering (3,375 features, 0.19 samples/feature with ridge regularization), demonstrating that sophisticated readout strategies can overcome data quality limitations. We identify optimal qubit counts of 8-16 for current data availability and provide the first validation of QRC on 156-qubit NISQ hardware, with implications for quantum machine learning resource allocation.
-\end{abstract}
 
 \section{Introduction}
 

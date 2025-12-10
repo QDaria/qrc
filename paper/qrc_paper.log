@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1253,7 +1253,7 @@ Package rerunfilecheck Info: File `qrc_paper.out' has not changed.
 Here is how much of TeX's memory you used:
  27684 strings out of 473190
  548186 string characters out of 5715800
- 981977 words of memory out of 5000000
+ 980977 words of memory out of 5000000
  50202 multiletter control sequences out of 15000+600000
  612150 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1287,7 +1287,7 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on qrc_paper.pdf (14 pages, 1435850 bytes).
+Output written on qrc_paper.pdf (14 pages, 1435862 bytes).
 PDF statistics:
  778 PDF objects out of 1000 (max. 8388607)
  691 compressed objects within 7 object streams
