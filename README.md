@@ -2,6 +2,7 @@
 
 ## Largest QRC Hardware Demonstration: 156-Qubit IBM Heron r3
 
+[![GitHub](https://img.shields.io/badge/GitHub-QDaria%2Fqrc-181717?logo=github)](https://github.com/QDaria/qrc)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2412.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -196,6 +197,14 @@ pdflatex qrc_paper.tex  # Run twice for references
 - **Steinegger & Räth (2025):** [Quantum reservoir computing with polynomial feature engineering](https://doi.org/10.1038/s41598-025-86229-w)
 - **Kubota et al. (2023):** 120-qubit QRC demonstration
 - **Senanian et al. (2024):** 108-qubit QRC with dynamical decoupling
+
+---
+
+## Acknowledgments
+
+- **IBM Quantum** — Hardware access through IBM Quantum Network
+- **Rigetti Computing** — Continuous support for quantum simulations
+- **qBraid** — Platform for running Rigetti simulations
 
 ---
 
