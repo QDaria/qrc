@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  10 DEC 2025 01:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  11 DEC 2025 13:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,7 +1152,7 @@ rgh
 
 [11]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-019.
+023.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1184,12 +1184,12 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `qrc_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 69B07E7E177FF96535A752180C85E67D;15918.
+(rerunfilecheck)             Checksum: 40D486BC0214EFC3EFEC49E075EDAEC2;15918.
  ) 
 Here is how much of TeX's memory you used:
- 27545 strings out of 473190
- 542543 string characters out of 5715800
- 980975 words of memory out of 5000000
+ 27546 strings out of 473190
+ 542553 string characters out of 5715800
+ 980976 words of memory out of 5000000
  50064 multiletter control sequences out of 15000+600000
  612150 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1223,10 +1223,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on qrc_paper.pdf (13 pages, 3179977 bytes).
+Output written on qrc_paper.pdf (13 pages, 3180157 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 688 compressed objects within 7 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 212 named destinations out of 1000 (max. 500000)
  698 words of extra memory for PDF output out of 10000 (max. 10000000)
 
