@@ -334,14 +334,7 @@ Regularization parameter $\alpha$ selected via 5-fold cross-validation from $\{0
 
 \begin{figure}[!htbp]
 \centering
-\resizebox{0.95\columnwidth}{!}{%
-\begin{quantikz}
-& \gate{R_Y(\theta_1)} & \ctrl{1} & \gate{R_Y(\phi_1)} & \ctrl{3} & \meter{} \\
-& \gate{R_Y(\theta_2)} & \targ{} & \gate{R_Y(\phi_2)} & \qw & \meter{} \\
-& \gate{R_Y(\theta_3)} & \ctrl{1} & \gate{R_Y(\phi_3)} & \qw & \meter{} \\
-& \gate{R_Y(\theta_4)} & \targ{} & \gate{R_Y(\phi_4)} & \targ{} & \meter{}
-\end{quantikz}%
-}
+\includegraphics[width=0.95\columnwidth]{figures/figure0_circuit_architecture.png}
 \caption{QRC quantum circuit (4-qubit). Input encoding via $R_Y(\theta_i)$ rotations, entangling CNOT layers, and computational basis measurements. Parameters are randomly initialized and fixed during training.}
 \label{fig:qrc_circuit}
 \end{figure}

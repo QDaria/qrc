@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  11 DEC 2025 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.19)  12 DEC 2025 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,50 +1052,56 @@ Underfull \hbox (badness 2261) in paragraph at lines 325--326
 10 = (\OT1/cmr/bx/n/10 H[]H[] \OT1/cmr/m/n/10 +
  []
 
-<figures/figure1_performance_comparison.png, id=443, 860.013pt x 354.8457pt>
+<figures/figure0_circuit_architecture.png, id=443, 597.9138pt x 348.3414pt>
+File: figures/figure0_circuit_architecture.png Graphic file (type png)
+<use figures/figure0_circuit_architecture.png>
+Package pdftex.def Info: figures/figure0_circuit_architecture.png  used on inpu
+t line 337.
+(pdftex.def)             Requested size: 239.39923pt x 139.47227pt.
+<figures/figure1_performance_comparison.png, id=444, 860.013pt x 354.8457pt>
 File: figures/figure1_performance_comparison.png Graphic file (type png)
 <use figures/figure1_performance_comparison.png>
 Package pdftex.def Info: figures/figure1_performance_comparison.png  used on in
-put line 354.
+put line 347.
 (pdftex.def)             Requested size: 474.71906pt x 195.86961pt.
 
 
 [3 <./figures/figure4_topology_comparison.png>]
 
-<figures/figure2_forecast_trajectories.png, id=460, 871.8171pt x 713.064pt>
+<figures/figure2_forecast_trajectories.png, id=461, 871.8171pt x 713.064pt>
 File: figures/figure2_forecast_trajectories.png Graphic file (type png)
 <use figures/figure2_forecast_trajectories.png>
 Package pdftex.def Info: figures/figure2_forecast_trajectories.png  used on inp
-ut line 415.
+ut line 408.
 (pdftex.def)             Requested size: 474.71906pt x 388.26944pt.
 
 
-[4]
-<figures/figure7_steinegger_flowchart.png, id=474, 852.5451pt x 715.473pt>
+[4 <./figures/figure0_circuit_architecture.png>]
+<figures/figure7_steinegger_flowchart.png, id=476, 852.5451pt x 715.473pt>
 File: figures/figure7_steinegger_flowchart.png Graphic file (type png)
 <use figures/figure7_steinegger_flowchart.png>
 Package pdftex.def Info: figures/figure7_steinegger_flowchart.png  used on inpu
-t line 445.
+t line 438.
 (pdftex.def)             Requested size: 474.71906pt x 398.39137pt.
-<figures/figure3_sample_efficiency.png, id=475, 715.473pt x 498.1812pt>
+<figures/figure3_sample_efficiency.png, id=477, 715.473pt x 498.1812pt>
 File: figures/figure3_sample_efficiency.png Graphic file (type png)
 <use figures/figure3_sample_efficiency.png>
 Package pdftex.def Info: figures/figure3_sample_efficiency.png  used on input l
-ine 454.
+ine 447.
 (pdftex.def)             Requested size: 252.0pt x 175.46066pt.
 
 
-<figures/figure6_lyapunov_comparison.png, id=479, 715.7139pt x 425.9112pt>
+<figures/figure6_lyapunov_comparison.png, id=481, 715.7139pt x 425.9112pt>
 File: figures/figure6_lyapunov_comparison.png Graphic file (type png)
 <use figures/figure6_lyapunov_comparison.png>
 Package pdftex.def Info: figures/figure6_lyapunov_comparison.png  used on input
- line 532.
+ line 525.
 (pdftex.def)             Requested size: 252.0pt x 149.96149pt.
-<figures/figure9_spectral_energy.png, id=481, 714.7503pt x 498.1812pt>
+<figures/figure9_spectral_energy.png, id=483, 714.7503pt x 498.1812pt>
 File: figures/figure9_spectral_energy.png Graphic file (type png)
 <use figures/figure9_spectral_energy.png>
 Package pdftex.def Info: figures/figure9_spectral_energy.png  used on input lin
-e 551.
+e 544.
 (pdftex.def)             Requested size: 252.0pt x 175.6431pt.
 
 
@@ -1106,18 +1112,18 @@ e 551.
 [6 <./figures/figure2_forecast_trajectories.png>]
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 619--620
+Underfull \hbox (badness 1852) in paragraph at lines 612--613
 []\OT1/ptm/m/n/10 Do NOT val-i-date tur-bu-lence physics (due to non-
  []
 
 
 
 [7 <./figures/figure7_steinegger_flowchart.png>]
-<figures/figure5_ablation_study.png, id=516, 1003.3485pt x 353.6412pt>
+<figures/figure5_ablation_study.png, id=518, 1003.3485pt x 353.6412pt>
 File: figures/figure5_ablation_study.png Graphic file (type png)
 <use figures/figure5_ablation_study.png>
 Package pdftex.def Info: figures/figure5_ablation_study.png  used on input line
- 634.
+ 627.
 (pdftex.def)             Requested size: 252.0pt x 88.82018pt.
 
 
@@ -1126,11 +1132,11 @@ Package pdftex.def Info: figures/figure5_ablation_study.png  used on input line
 [8 <./figures/figure3_sample_efficiency.png> <./figures/figure6_lyapunov_compar
 ison.png> <./figures/figure9_spectral_energy.png> <./figures/figure5_ablation_s
 tudy.png>]
-<figures/figure8_learning_curves.png, id=537, 1076.1003pt x 317.5062pt>
+<figures/figure8_learning_curves.png, id=539, 1076.1003pt x 317.5062pt>
 File: figures/figure8_learning_curves.png Graphic file (type png)
 <use figures/figure8_learning_curves.png>
 Package pdftex.def Info: figures/figure8_learning_curves.png  used on input lin
-e 705.
+e 698.
 (pdftex.def)             Requested size: 474.71906pt x 140.0665pt.
 
 
@@ -1139,7 +1145,7 @@ e 705.
 [9 <./figures/figure8_learning_curves.png>]
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 806--807
+Underfull \hbox (badness 1874) in paragraph at lines 799--800
 []\OT1/ptm/b/n/10 Hardware: \OT1/ptm/m/n/10 IBM Quan-tum Net-work (ibm[]pittsbu
 rgh
  []
@@ -1152,7 +1158,7 @@ rgh
 
 [11]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-023.
+016.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1187,13 +1193,13 @@ Package rerunfilecheck Info: File `qrc_paper.out' has not changed.
 (rerunfilecheck)             Checksum: 40D486BC0214EFC3EFEC49E075EDAEC2;15918.
  ) 
 Here is how much of TeX's memory you used:
- 27546 strings out of 473190
- 542553 string characters out of 5715800
- 980976 words of memory out of 5000000
- 50064 multiletter control sequences out of 15000+600000
+ 27055 strings out of 473190
+ 530392 string characters out of 5715800
+ 938160 words of memory out of 5000000
+ 49573 multiletter control sequences out of 15000+600000
  612150 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,20n,94p,1583b,1601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,94p,1583b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1223,10 +1229,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/u
 rw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on qrc_paper.pdf (13 pages, 3180157 bytes).
+Output written on qrc_paper.pdf (13 pages, 3257858 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
+ 790 PDF objects out of 1000 (max. 8388607)
  690 compressed objects within 7 object streams
  212 named destinations out of 1000 (max. 500000)
- 698 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 703 words of extra memory for PDF output out of 10000 (max. 10000000)
 
