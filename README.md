@@ -3,7 +3,7 @@
 ## Largest QRC Hardware Demonstration: 156-Qubit IBM Heron r3
 
 [![GitHub](https://img.shields.io/badge/GitHub-QDaria%2Fqrc-181717?logo=github)](https://github.com/QDaria/qrc)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17899073.svg)](https://doi.org/10.5281/zenodo.17899073)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17910992.svg)](https://doi.org/10.5281/zenodo.17910992)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2412.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -183,13 +183,13 @@ pdflatex qrc_paper.tex  # Run twice for references
 
 ```bibtex
 @article{houshmand2025qrc,
-  title={Quantum Reservoir Computing for Chaotic System Prediction:
-         156-Qubit Hardware Demonstration and Feature Engineering Analysis},
+  title={Sample Efficiency Crisis in Quantum Reservoir Computing:
+         Scaling Analysis on 156-Qubit IBM Hardware and Rigetti Simulation},
   author={Houshmand, Daniel Mo},
   journal={arXiv preprint arXiv:2412.XXXXX},
   year={2025},
-  doi={10.5281/zenodo.17899073},
-  url={https://doi.org/10.5281/zenodo.17899073}
+  doi={10.5281/zenodo.17910992},
+  url={https://doi.org/10.5281/zenodo.17910992}
 }
 ```
 
