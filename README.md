@@ -19,7 +19,7 @@ Every IBM run executed on the Heron r2 backend `ibm_fez` via the IBM Quantum Pla
 
 ## Abstract
 
-We present what is, to our knowledge, the **largest quantum reservoir computing (QRC) demonstration on gate-based superconducting hardware to date**, comparing 4-qubit and 156-qubit experiments on an IBM Heron r2 processor (`ibm_fez`, open plan) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology.
+We present a quantum reservoir computing (QRC) study on IBM superconducting hardware, comparing 4-qubit and 156-qubit reservoirs executed on the 156-qubit Heron r2 processor `ibm_fez` (open plan) — a qubit count that, to our knowledge, exceeds previously reported QRC hardware experiments, although the larger reservoir did not translate into better prediction alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology.
 
 **Key Results:**
 - **IBM 4Q:** R² = 0.764 ± 0.018 (50 samples, 10 features)
@@ -32,7 +32,7 @@ We present what is, to our knowledge, the **largest quantum reservoir computing 
 
 | Contribution | Details |
 |-------------|---------|
-| **Scale** | To our knowledge the first experimental QRC on a 156-qubit gate-based device (prior: 120 superconducting qubits, Yasuda et al. 2023; 108 neutral atoms, Kornjača et al. 2024) |
+| **Hardware scale** | Full-processor QRC on 156-qubit IBM Heron r2 (`ibm_fez`); a larger qubit count than prior reports (120Q preliminary, Yasuda et al. 2023; 108 atoms, Kornjača et al. 2024), not better learning |
 | **Sample Efficiency Crisis** | 156Q (1.28 samples/feature) performs comparably to 4Q (5.0 samples/feature) — diminishing returns identified |
 | **Multi-System Validation** | Average R² = 0.908 across Lorenz-63, Rössler, and turbulence (13× range in Lyapunov exponents) |
 | **Feature Engineering Dominance** | 9Q with polynomial features outperforms 156Q hardware by ΔR² = 0.236 (p < 0.001) |
@@ -169,10 +169,9 @@ pdflatex qrc_paper.tex  # Run twice for references
 ## Hardware Specifications
 
 ### IBM Heron r2 (156Q) — ibm_fez
-- **Released:** July 2025
-- **T1:** 300 μs | **T2:** 370 μs
-- **2Q Gate Error:** 5×10⁻⁴ (99.95% fidelity)
-- **Topology:** Heavy-hex lattice
+- Access: IBM Quantum Platform open plan; Qiskit Runtime SamplerV2, 4,000 shots per circuit
+- Jobs: `d4kdprd74pkc7386uov0` (4Q), `d4m7kg10i6jc73dgg1n0` + `d4m87dl74pkc7388nll0` (156Q), 27–30 Nov 2025 — see `hardware/PROVENANCE.md`
+- Run-time calibration not archived
 
 ### Rigetti Novera (9Q) — Simulated
 - **Architecture:** Ankaa 4th generation

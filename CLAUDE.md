@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Quantum Reservoir Computing (QRC) research project: a 156-qubit experiment on IBM Heron r2 (`ibm_fez`, open plan) — to our knowledge the largest gate-based QRC hardware run — plus 4-qubit hardware and 9-qubit simulation baselines. Hardware provenance (job IDs, dates) lives in `hardware/PROVENANCE.md`. Implements the Steinegger-Räth (2025) feature engineering methodology for chaotic system prediction.
+Quantum Reservoir Computing (QRC) research project: a 156-qubit experiment on IBM Heron r2 (`ibm_fez`, open plan) — a larger qubit count than previously reported QRC hardware runs, not better learning — plus 4-qubit hardware and 9-qubit simulation baselines. Hardware provenance (job IDs, dates) lives in `hardware/PROVENANCE.md`. Implements the Steinegger-Räth (2025) feature engineering methodology for chaotic system prediction.
 
 ## Build/Run Commands
 

@@ -55,7 +55,7 @@ Email: mo@qdaria.com}
 \maketitle
 
 \begin{abstract}
-We present what is, to our knowledge, the largest quantum reservoir computing (QRC) demonstration on gate-based superconducting hardware to date, comparing 4-qubit and 156-qubit experiments on an IBM Heron r2 processor (\texttt{ibm\_fez}) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology. On time-evolving spectral data, we achieve $R^2=0.764$ (4Q, 50 samples) and $R^2=0.723$ (156Q, 200 samples), surpassing previous experimental demonstrations of 120 qubits \cite{yasuda2023quantum} and 108 qubits \cite{kornjaca2024largescale}. To validate QRC generalizability across chaotic regimes, we demonstrate multi-system validation on canonical chaotic attractors: Lorenz-63 ($R^2=0.796$, $\lambda=0.906$) and Rössler ($R^2=0.969$, $\lambda=0.071$), achieving average $R^2=0.908$ across systems spanning a 13$\times$ range in Lyapunov exponents. While these results validate QRC methodology on complex dynamics, direct comparison reveals sample efficiency challenges: the 156-qubit system operates at 1.28 samples/feature versus 5.0 for 4Q. Meanwhile, simulated 9-qubit Rigetti Novera achieves $R^2=0.959$ on the same spectral evolution data through polynomial feature engineering (3,375 features, 0.19 samples/feature with ridge regularization), demonstrating that sophisticated readout strategies can overcome data quality limitations. We identify optimal qubit counts of 8-16 for current data availability and provide the first validation of QRC on 156-qubit NISQ hardware, with implications for quantum machine learning resource allocation.
+We present a quantum reservoir computing (QRC) study on IBM superconducting hardware, comparing 4-qubit and 156-qubit reservoirs executed on the 156-qubit Heron r2 processor \texttt{ibm\_fez} alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology. On time-evolving spectral data, we achieve $R^2=0.764$ (4Q, 50 samples) and $R^2=0.723$ (156Q, 200 samples), a qubit count that, to our knowledge, exceeds previously reported QRC hardware experiments (a preliminary 120-qubit superconducting result \cite{yasuda2023quantum} and 108 neutral atoms \cite{kornjaca2024largescale}), although the larger reservoir did not translate into better prediction. To validate QRC generalizability across chaotic regimes, we demonstrate multi-system validation on canonical chaotic attractors: Lorenz-63 ($R^2=0.796$, $\lambda=0.906$) and Rössler ($R^2=0.969$, $\lambda=0.071$), achieving average $R^2=0.908$ across systems spanning a 13$\times$ range in Lyapunov exponents. While these results validate QRC methodology on complex dynamics, direct comparison reveals sample efficiency challenges: the 156-qubit system operates at 1.28 samples/feature versus 5.0 for 4Q. Meanwhile, simulated 9-qubit Rigetti Novera achieves $R^2=0.959$ on the same spectral evolution data through polynomial feature engineering (3,375 features, 0.19 samples/feature with ridge regularization), demonstrating that sophisticated readout strategies can overcome data quality limitations. We identify optimal qubit counts of 8-16 for current data availability and report full-processor QRC on 156-qubit NISQ hardware, with implications for quantum machine learning resource allocation.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -75,7 +75,7 @@ Quantum reservoir computing (QRC) has emerged as a promising NISQ-compatible app
 
 \subsection{The Scaling Question}
 
-Despite QRC's theoretical promise, a fundamental question remains unaddressed: \textbf{how does QRC performance scale with quantum hardware size?} Prior work has been confined to small systems ($<20$ qubits) \cite{negoro2018machine, fujii2017harnessing}, with no systematic study comparing performance across orders-of-magnitude qubit count variations. Industry rhetoric suggests that 100+ qubit systems should dramatically outperform smaller processors, justifying investments in large-scale quantum hardware.
+Despite QRC's theoretical promise, a fundamental question remains unaddressed: \textbf{how does QRC performance scale with quantum hardware size?} Early demonstrations used small systems \cite{negoro2018machine, fujii2017harnessing}; hardware work has since reached 108 neutral atoms \cite{kornjaca2024largescale} and a preliminary 120-qubit superconducting result \cite{yasuda2023quantum}, but there is no systematic study comparing performance across orders-of-magnitude qubit count variations. Industry rhetoric suggests that 100+ qubit systems should dramatically outperform smaller processors, justifying investments in large-scale quantum hardware.
 
 \subsection{Critical Gap Identified}
 
@@ -92,7 +92,7 @@ This gap is critical because hardware investment decisions currently lack empiri
 
 This work makes four primary contributions:
 
-\textbf{C1: Scale.} To our knowledge the first experimental QRC on a 156-qubit gate-based device, beyond the 120-qubit superconducting run of \cite{yasuda2023quantum} and the 108-atom analog demonstration of \cite{kornjaca2024largescale}. We achieve $R^2=0.723 \pm 0.022$ on complex time-evolving data.
+\textbf{C1: Hardware Scale.} Full-processor QRC on 156 superconducting qubits (\texttt{ibm\_fez}, Heron r2), a larger qubit count than the preliminary 120-qubit superconducting result of Yasuda et al.~\cite{yasuda2023quantum} and the 108-atom neutral-atom experiment of Kornja\v{c}a et al.~\cite{kornjaca2024largescale}; we make no claim of superior learning performance. We achieve $R^2=0.723 \pm 0.022$ on complex time-evolving data.
 
 \textbf{C2: Sample Efficiency Crisis.} Identification and quantification of diminishing returns from naive qubit scaling: 156Q (1.28 samples/feature) performs comparably to 4Q (5.0 samples/feature), with no statistically significant improvement ($p=0.23$). Section~\ref{sec:sample_crisis} formalizes thresholds.
 
@@ -213,11 +213,10 @@ For 2D Kolmogorov turbulence at Reynolds number $Re=200$, we measure $\lambda_{\
 \subsubsection{IBM 4-Qubit Configuration}
 
 \begin{itemize}
-    \item \textbf{Processor:} IBM Canary r2 (4Q linear chain)
-    \item \textbf{Topology:} $Q_0 - Q_1 - Q_2 - Q_3$ (all-to-all via SWAP)
-    \item \textbf{Gate Fidelities:} 99.95\% (1Q), 99.5\% (2Q CNOT)
-    \item \textbf{Coherence:} $T_1 = 100-150$ $\mu$s, $T_2 = 80-120$ $\mu$s
-    \item \textbf{Measurement:} 98-99\% readout fidelity
+    \item \textbf{Processor:} 4 qubits of \texttt{ibm\_fez} (IBM Heron r2); job \texttt{d4kdprd74pkc7386uov0}, 27 Nov 2025
+    \item \textbf{Circuit:} 8 layers, each a parameterised single-qubit layer followed by a ring-coupled CX entangling layer
+    \item \textbf{Readout:} 4 single-qubit $\langle Z_i \rangle$ and 6 two-qubit $\langle Z_i Z_j \rangle$ expectation values (10 features)
+    \item \textbf{Shots:} 4{,}000 per circuit, 50 input timesteps; run-time calibration was not archived
 \end{itemize}
 
 \subsubsection{IBM 156-Qubit Configuration}
@@ -225,14 +224,12 @@ For 2D Kolmogorov turbulence at Reynolds number $Re=200$, we measure $\lambda_{\
 \begin{itemize}
     \item \textbf{Processor:} IBM Heron r2, backend \texttt{ibm\_fez} (156 physical qubits), accessed through the IBM Quantum Platform open plan
     \item \textbf{Topology:} Heavy-hex lattice (degree-2/3 connectivity)
-    \item \textbf{Gate Fidelities:} 99.9\% (1Q), 99.95\% (2Q CZ, $5 \times 10^{-4}$ error)
-    \item \textbf{Coherence:} $T_1 \approx 300$ $\mu$s, $T_2 \approx 370$ $\mu$s
+    \item \textbf{Calibration:} run-time calibration was not archived; vendor-published typical Heron r2 values apply
     \item \textbf{Basis Gates:} CZ, ID, RZ, SX, X
     \item \textbf{SWAP Overhead:} 37\% additional gates for non-adjacent ops
-    \item \textbf{Measurement:} 96-99\% readout fidelity
 \end{itemize}
 
-Calibration data for the IBM Heron r2 processor (\texttt{ibm\_fez}) used in the experiments are provided in Table~\ref{tab:heron_calibration} (Appendix~\ref{app:hardware_specs}); the job identifier, date, sample count and shot count of every hardware run are listed in Table~\ref{tab:provenance}.
+Run-time calibration data were not archived. The job identifier, date, sample count and shot count of every hardware run are listed in Table~\ref{tab:provenance} (Appendix~\ref{app:hardware_specs}).
 
 \begin{figure*}[!htbp]
 \centering
@@ -734,7 +731,7 @@ The 9Q Rigetti Novera simulation used the same spectral evolution data as the IB
 
 This work presents:
 \begin{enumerate}
-    \item \textbf{Primary Contribution}: A 156-qubit QRC demonstration on real hardware (200 samples), to our knowledge the largest gate-based run reported
+    \item \textbf{Primary Contribution}: Full-processor (156-qubit) QRC on IBM Heron r2 hardware with 200 samples
     \item \textbf{Methodological Validation}: QRC works on complex time-series at scale
     \item \textbf{Future Roadmap}: Physics validation requires DNS-quality turbulence with documented properties
 \end{enumerate}
@@ -798,17 +795,19 @@ All experiments use publicly available tools:
     \item \textbf{Software:} Qiskit 0.45, Qiskit Aer 0.13, scikit-learn 1.3
     \item \textbf{Hardware:} IBM Quantum Platform, open plan (\texttt{ibm\_fez} backend, Heron r2)
     \item \textbf{Data:} Turbulence generated via pseudo-spectral DNS ($64 \times 64$, Re=200)
-    \item \textbf{Code:} Available upon request; anonymized repository for review
+    \item \textbf{Code and data:} \url{https://github.com/QDaria/qrc} --- reservoir states, sample indices, training spectra, job result files and run scripts (\texttt{data/}, \texttt{hardware/})
 \end{itemize}
 
 \noindent Random seeds are fixed for reproducibility. Cross-validation uses stratified splits with seed=42.
+
+\noindent $R^2$ values are scikit-learn \texttt{r2\_score} computed on the flattened test-set spectra (all wavenumbers pooled, variance about the global mean); under this definition the reported 0.764 (4Q) and 0.723 (156Q) reproduce exactly from the deposited data. The per-wavenumber averaged $R^2$ (scikit-learn's default multi-output setting) is lower: 0.32 for 4Q and 0.14 for 156Q. RMSE is 608 (4Q) and 566 (156Q) in spectral-energy units.
 
 \section{Conclusions and Future Work}
 \label{sec:conclusions}
 
 \subsection{Key Findings}
 
-\textbf{Finding 1:} To our knowledge the largest gate-based QRC hardware demonstration to date. We validated QRC methodology on the 156-qubit IBM Heron r2 processor \texttt{ibm\_fez}, achieving $R^2=0.723$ on complex time-evolving data, surpassing previous records of 120 qubits \cite{yasuda2023quantum} and 108 qubits \cite{kornjaca2024largescale}.
+\textbf{Finding 1:} Full-processor 156-qubit QRC on IBM Heron r2 hardware (\texttt{ibm\_fez}) achieving $R^2=0.723$ (flattened-spectrum definition, Sec.~Reproducibility) on complex time-evolving data. The qubit count exceeds previously reported QRC hardware experiments \cite{yasuda2023quantum, kornjaca2024largescale}; the prediction quality does not.
 
 \textbf{Finding 2:} Multi-system generalizability demonstrated. QRC achieves consistent performance across three distinct chaotic systems: Lorenz-63 ($R^2=0.796$), Rössler ($R^2=0.969$), and spectral turbulence ($R^2=0.959$), with average $R^2=0.908$ across a 13$\times$ range in Lyapunov exponents (0.071 to 0.906). This establishes QRC as a general-purpose approach rather than system-specific method.
 
@@ -843,7 +842,7 @@ For NISQ-era QRC applications:
 Intermediate-qubit systems (20-50Q) on shared cloud infrastructure face practical challenges that may exceed either small dedicated systems (4-9Q with high fidelity) or flagship processors (100+Q with priority access):
 
 \begin{enumerate}
-    \item \textbf{Queue Times}: Extended wait times (18-36 hours) for mid-range circuits vs. 2-4 hours for premium backends
+    \item \textbf{Queue Times}: Wait times on shared open-access backends are variable and outside the experimenter's control
     \item \textbf{Calibration Drift}: Processor recalibration between job submission and execution can invalidate gate fidelities
     \item \textbf{Cost Efficiency}: Per-circuit costs for statistically valid sampling may exceed budget constraints
 \end{enumerate}
@@ -990,31 +989,10 @@ Normalized to Lyapunov times:
 \section{Hardware Specifications}
 \label{app:hardware_specs}
 
-\subsection{IBM Heron r2 (156Q) Detailed Parameters}
-
-\begin{table}[!htbp]
-\centering
-\caption{IBM Heron r2 Calibration Data (\texttt{ibm\_fez})}
-\label{tab:heron_calibration}
-\begin{tabular}{@{}lcc@{}}
-\toprule
-\textbf{Parameter} & \textbf{Mean} & \textbf{Range} \\
-\midrule
-1Q Gate Error & $1.0 \times 10^{-3}$ & $5 \times 10^{-4}$ -- $2 \times 10^{-3}$ \\
-2Q Gate Error & $5.0 \times 10^{-4}$ & $3 \times 10^{-4}$ -- $8 \times 10^{-4}$ \\
-$T_1$ ($\mu$s) & 300 & 200 -- 400 \\
-$T_2$ ($\mu$s) & 370 & 300 -- 450 \\
-Readout Error & $1.8\%$ & $1.2\%$ -- $3.5\%$ \\
-Readout Duration ($\mu$s) & 0.672 & -- \\
-SWAP Depth & 2.1 (avg) & 1 -- 4 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
 \subsection{Hardware Run Provenance}
 \label{app:provenance}
 
-All IBM hardware executions used the \texttt{qiskit-ibm-runtime} \texttt{SamplerV2} primitive on the Heron r2 backend \texttt{ibm\_fez} through the IBM Quantum Platform open plan. Table~\ref{tab:provenance} lists the job identifiers as recorded in the result files archived with the code (\texttt{hardware/jobs/}). The 200-sample reservoir-state matrix used for the 156Q results (\texttt{data/reservoir\_states\_hero\_156q\_200.npy}, $200 \times 156$) was assembled on 2025-11-30 from the 50-sample run and a 150-sample extension submitted by \texttt{hardware/scripts/run\_append\_150.py}; the extension's job identifier was written to a local file that was not archived. Raw measurement counts for the 156Q runs are in \texttt{hardware/jobs/raw\_counts.json}.
+All IBM hardware executions used the \texttt{qiskit-ibm-runtime} \texttt{SamplerV2} primitive on the Heron r2 backend \texttt{ibm\_fez} through the IBM Quantum Platform open plan. Table~\ref{tab:provenance} lists the job identifiers as recorded in the result files archived with the code (\texttt{hardware/jobs/}). The 200-sample reservoir-state matrix used for the 156Q results (\texttt{data/reservoir\_states\_hero\_156q\_200.npy}, $200 \times 156$) was assembled on 2025-11-30 from the 50-sample run (\texttt{d4m7kg10i6jc73dgg1n0}) and the 150-sample extension (\texttt{d4m87dl74pkc7388nll0}) submitted by \texttt{hardware/scripts/run\_append\_150.py}. Raw measurement counts for the 156Q jobs (130~MB) are archived by the author and available on request; \texttt{hardware/jobs/raw\_counts.json} holds the counts of the unused Rigetti Ankaa-3 attempt.
 
 \begin{table}[!htbp]
 \centering
@@ -1025,9 +1003,9 @@ All IBM hardware executions used the \texttt{qiskit-ibm-runtime} \texttt{Sampler
 \textbf{Run} & \textbf{Job ID} & \textbf{Date (UTC)} & \textbf{Samples} & \textbf{Qubits} \\
 \midrule
 4Q validation & \texttt{d4kdprd74pkc7386uov0} & 2025-11-27 & 50 & 4 \\
-156Q pilot & \texttt{d4kqhgh0i6jc73df4690} & 2025-11-28 & 10 & 156 \\
+156Q pilot (discarded) & \texttt{d4kqhgh0i6jc73df4690} & 2025-11-28 & 10 & 156 \\
 156Q run & \texttt{d4m7kg10i6jc73dgg1n0} & 2025-11-30 & 50 & 156 \\
-156Q extension (300) & \texttt{d4mu8ash0bas73fatacg} & 2025-12-01 & 300 & 156 \\
+156Q extension & \texttt{d4m87dl74pkc7388nll0} & 2025-11-30 & 150 & 156 \\
 \bottomrule
 \end{tabular}
 \end{table}

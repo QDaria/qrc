@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  2 SEP 2026 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  2 SEP 2026 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,177 +1014,191 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 178.
 
 [2]
-Underfull \hbox (badness 6141) in paragraph at lines 235--236
-[]\OT1/ptm/m/n/10 Calibration data for the IBM Heron r2 pro-ces-sor
+Underfull \hbox (badness 1721) in paragraph at lines 227--228
+[]\OT1/ptm/b/n/10 Calibration: \OT1/ptm/m/n/10 run-time cal-i-bra-tion was not 
+archived;
  []
 
-<figures/figure4_topology_comparison.png, id=442, 932.5239pt x 431.211pt>
+<figures/figure4_topology_comparison.png, id=440, 932.5239pt x 431.211pt>
 File: figures/figure4_topology_comparison.png Graphic file (type png)
 <use figures/figure4_topology_comparison.png>
 Package pdftex.def Info: figures/figure4_topology_comparison.png  used on input
- line 239.
+ line 236.
 (pdftex.def)             Requested size: 474.71906pt x 219.51991pt.
 
-Underfull \hbox (badness 2012) in paragraph at lines 248--249
+Underfull \hbox (badness 2012) in paragraph at lines 245--246
  \OT1/ptm/m/it/10 1) Rigetti Novera 9Q Spec-i-fi-ca-tions: [][][] \OT1/ptm/m/n/
 10 Sim-u-lated us-ing
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 292--293
+Underfull \hbox (badness 1688) in paragraph at lines 289--290
 []\OT1/ptm/m/n/10 Regularization pa-ram-e-ter $\OML/cmm/m/it/10 $ \OT1/ptm/m/n
 /10 se-lected via 5-fold cross-
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 297.
+put line 294.
 
-Underfull \hbox (badness 2261) in paragraph at lines 325--326
+Underfull \hbox (badness 2261) in paragraph at lines 322--323
 []\OT1/ptm/m/n/10 Solve ridge re-gres-sion: $\OML/cmm/m/it/10 W[] \OT1/cmr/m/n/
 10 = (\OT1/cmr/bx/n/10 H[]H[] \OT1/cmr/m/n/10 +
  []
 
-<figures/figure0_circuit_architecture.png, id=450, 597.9138pt x 348.3414pt>
+<figures/figure0_circuit_architecture.png, id=448, 597.9138pt x 348.3414pt>
 File: figures/figure0_circuit_architecture.png Graphic file (type png)
 <use figures/figure0_circuit_architecture.png>
 Package pdftex.def Info: figures/figure0_circuit_architecture.png  used on inpu
-t line 337.
+t line 334.
 (pdftex.def)             Requested size: 239.39923pt x 139.47227pt.
-<figures/figure1_performance_comparison.png, id=451, 860.013pt x 354.8457pt>
+<figures/figure1_performance_comparison.png, id=449, 860.013pt x 354.8457pt>
 File: figures/figure1_performance_comparison.png Graphic file (type png)
 <use figures/figure1_performance_comparison.png>
 Package pdftex.def Info: figures/figure1_performance_comparison.png  used on in
-put line 347.
+put line 344.
 (pdftex.def)             Requested size: 474.71906pt x 195.86961pt.
 [3 <./figures/figure4_topology_comparison.png>]
-<figures/figure2_forecast_trajectories.png, id=470, 871.8171pt x 713.064pt>
+<figures/figure2_forecast_trajectories.png, id=465, 871.8171pt x 713.064pt>
 File: figures/figure2_forecast_trajectories.png Graphic file (type png)
 <use figures/figure2_forecast_trajectories.png>
 Package pdftex.def Info: figures/figure2_forecast_trajectories.png  used on inp
-ut line 408.
+ut line 405.
 (pdftex.def)             Requested size: 474.71906pt x 388.26944pt.
  [4 <./figures/figure0_circuit_architecture.png>]
-<figures/figure7_steinegger_flowchart.png, id=485, 852.5451pt x 715.473pt>
+<figures/figure7_steinegger_flowchart.png, id=481, 852.5451pt x 715.473pt>
 File: figures/figure7_steinegger_flowchart.png Graphic file (type png)
 <use figures/figure7_steinegger_flowchart.png>
 Package pdftex.def Info: figures/figure7_steinegger_flowchart.png  used on inpu
-t line 438.
+t line 435.
 (pdftex.def)             Requested size: 474.71906pt x 398.39137pt.
-<figures/figure3_sample_efficiency.png, id=486, 715.473pt x 498.1812pt>
+<figures/figure3_sample_efficiency.png, id=482, 715.473pt x 498.1812pt>
 File: figures/figure3_sample_efficiency.png Graphic file (type png)
 <use figures/figure3_sample_efficiency.png>
 Package pdftex.def Info: figures/figure3_sample_efficiency.png  used on input l
-ine 447.
+ine 444.
 (pdftex.def)             Requested size: 252.0pt x 175.46066pt.
-<figures/figure6_lyapunov_comparison.png, id=490, 715.7139pt x 425.9112pt>
+<figures/figure6_lyapunov_comparison.png, id=486, 715.7139pt x 425.9112pt>
 File: figures/figure6_lyapunov_comparison.png Graphic file (type png)
 <use figures/figure6_lyapunov_comparison.png>
 Package pdftex.def Info: figures/figure6_lyapunov_comparison.png  used on input
- line 525.
+ line 522.
 (pdftex.def)             Requested size: 252.0pt x 149.96149pt.
-<figures/figure9_spectral_energy.png, id=492, 714.7503pt x 498.1812pt>
+ [5 <./figures/figure1_performance_comparison.png>]
+<figures/figure9_spectral_energy.png, id=497, 714.7503pt x 498.1812pt>
 File: figures/figure9_spectral_energy.png Graphic file (type png)
 <use figures/figure9_spectral_energy.png>
 Package pdftex.def Info: figures/figure9_spectral_energy.png  used on input lin
-e 544.
+e 541.
 (pdftex.def)             Requested size: 252.0pt x 175.6431pt.
- [5 <./figures/figure1_performance_comparison.png>] [6 <./figures/figure2_forec
-ast_trajectories.png>]
-Underfull \hbox (badness 1852) in paragraph at lines 612--613
+ [6 <./figures/figure2_forecast_trajectories.png>] [7 <./figures/figure7_steine
+gger_flowchart.png>]
+Underfull \hbox (badness 1852) in paragraph at lines 609--610
 []\OT1/ptm/m/n/10 Do NOT val-i-date tur-bu-lence physics (due to non-
  []
 
-[7 <./figures/figure7_steinegger_flowchart.png>]
-<figures/figure5_ablation_study.png, id=526, 1003.3485pt x 353.6412pt>
+<figures/figure5_ablation_study.png, id=522, 1003.3485pt x 353.6412pt>
 File: figures/figure5_ablation_study.png Graphic file (type png)
 <use figures/figure5_ablation_study.png>
 Package pdftex.def Info: figures/figure5_ablation_study.png  used on input line
- 627.
+ 624.
 (pdftex.def)             Requested size: 252.0pt x 88.82018pt.
- [8 <./figures/figure3_sample_efficiency.png> <./figures/figure6_lyapunov_compa
-rison.png> <./figures/figure9_spectral_energy.png> <./figures/figure5_ablation_
-study.png>]
-<figures/figure8_learning_curves.png, id=546, 1076.1003pt x 317.5062pt>
+[8 <./figures/figure3_sample_efficiency.png> <./figures/figure6_lyapunov_compar
+ison.png> <./figures/figure9_spectral_energy.png> <./figures/figure5_ablation_s
+tudy.png>]
+<figures/figure8_learning_curves.png, id=540, 1076.1003pt x 317.5062pt>
 File: figures/figure8_learning_curves.png Graphic file (type png)
 <use figures/figure8_learning_curves.png>
 Package pdftex.def Info: figures/figure8_learning_curves.png  used on input lin
-e 698.
+e 695.
 (pdftex.def)             Requested size: 474.71906pt x 140.0665pt.
- [9 <./figures/figure8_learning_curves.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+Underfull \hbox (badness 6188) in paragraph at lines 734--735
+[]\OT1/ptm/b/n/10 Primary Con-tri-bu-tion\OT1/ptm/m/n/10 : Full-processor (156-
+qubit)
+ []
+
+[9 <./figures/figure8_learning_curves.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 796--797
 []\OT1/ptm/b/n/10 Hardware: \OT1/ptm/m/n/10 IBM Quan-tum Plat-form, open plan
  []
 
 [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 []\OT1/ptm/m/n/10 All IBM hard-ware ex-e-cu-tions used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 \OT1/pcr/m/n/10 qiskit-ibm-runtime SamplerV2 \OT1/ptm/m/n/10 prim-i-tive on
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 1017--1018
+Underfull \hbox (badness 7613) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 the Heron r2 back-end \OT1/pcr/m/n/10 ibm_fez \OT1/ptm/m/n/10 t
 hrough the IBM
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 1017--1018
-\OT1/ptm/m/n/10 Quan-tum Plat-form open plan. Ta-ble []VII[] lists the job
+Underfull \hbox (badness 3417) in paragraph at lines 995--996
+\OT1/ptm/m/n/10 Quan-tum Plat-form open plan. Ta-ble []VI[] lists the job
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 iden-ti-fiers as recorded in the re-sult files archived
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 1017--1018
+Underfull \hbox (badness 6542) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 with the code (\OT1/pcr/m/n/10 hardware/jobs/\OT1/ptm/m/n/10 ).
  The 200-sample
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 reservoir-state ma-trix used for the 156Q re-sults
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 \OT1/ptm/m/n/10 (\OT1/pcr/m/n/10 data/reservoir_states_hero_156q_200.npy\OT1/pt
 m/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1017--1018
-\OT1/ptm/m/n/10 sample run and a 150-sample ex-ten-sion sub-mit-ted by
+Underfull \hbox (badness 4531) in paragraph at lines 995--996
+\OT1/cmr/m/n/10 200 \OMS/cmsy/m/n/10 ^^B \OT1/cmr/m/n/10 156$\OT1/ptm/m/n/10 ) 
+was as-sem-bled on 2025-11-30 from the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
-\OT1/pcr/m/n/10 hardware/scripts/run_append_150.py\OT1/ptm/m/n/10 ; the
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
+\OT1/ptm/m/n/10 by \OT1/pcr/m/n/10 hardware/scripts/run_append_150.py\OT1/ptm/m
+/n/10 .
  []
 
 
-Overfull \hbox (56.02295pt too wide) in paragraph at lines 1023--1033
+Underfull \hbox (badness 3229) in paragraph at lines 995--996
+\OT1/ptm/m/n/10 are archived by the au-thor and avail-able on re-quest;
+ []
+
+
+Overfull \hbox (58.80664pt too wide) in paragraph at lines 1001--1011
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 []\OT1/ptm/m/n/10 A 36-qubit run on Rigetti Ankaa-3 via
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 \OT1/ptm/m/n/10 qBraid was at-tempted (ten job iden-ti-fiers in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
 \OT1/pcr/m/n/10 hardware/jobs/checkpoint.json\OT1/ptm/m/n/10 ) but its data
  []
 
@@ -1200,22 +1214,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[13] (./qrc_paper.aux)
+[13
+
+] (./qrc_paper.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `qrc_paper.out' has not changed.
-(rerunfilecheck)             Checksum: 2A72DDFCC04DAC974DC96D3EBA671A3C;16107.
+(rerunfilecheck)             Checksum: BBA3F9573F1E478F861C77F2DE6C1EF0;15823.
  ) 
 Here is how much of TeX's memory you used:
- 27030 strings out of 467525
- 529156 string characters out of 5418982
- 957951 words of memory out of 5000000
- 55204 multiletter control sequences out of 15000+600000
+ 27026 strings out of 467525
+ 529078 string characters out of 5418982
+ 956885 words of memory out of 5000000
+ 55202 multiletter control sequences out of 15000+600000
  682580 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,94p,1703b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,94p,1803b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
 /usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1245,10 +1261,10 @@ ts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on qrc_paper.pdf (13 pages, 3270125 bytes).
+Output written on qrc_paper.pdf (13 pages, 3268404 bytes).
 PDF statistics:
- 802 PDF objects out of 1000 (max. 8388607)
- 700 compressed objects within 7 object streams
- 213 named destinations out of 1000 (max. 500000)
- 711 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 799 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 703 words of extra memory for PDF output out of 10000 (max. 10000000)
 
