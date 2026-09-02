@@ -1,6 +1,6 @@
 # Quantum Reservoir Computing for Chaotic System Prediction
 
-## Largest QRC Hardware Demonstration: 156-Qubit IBM Heron r3
+## 156-Qubit QRC on IBM Heron r2 (`ibm_fez`) — a sample-efficiency study
 
 [![GitHub](https://img.shields.io/badge/GitHub-QDaria%2Fqrc-181717?logo=github)](https://github.com/QDaria/qrc)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17910992.svg)](https://doi.org/10.5281/zenodo.17910992)
@@ -13,13 +13,17 @@
 
 ---
 
+## Hardware provenance
+
+Every IBM run executed on the Heron r2 backend `ibm_fez` via the IBM Quantum Platform open plan (4,000 shots per circuit). Job IDs, dates and sample counts: [`hardware/PROVENANCE.md`](hardware/PROVENANCE.md). Result files: `hardware/jobs/`; execution scripts: `hardware/scripts/`; reservoir states: `data/reservoir_states_ibm_4q.npy` (50×10) and `data/reservoir_states_hero_156q_200.npy` (200×156).
+
 ## Abstract
 
-We present the **largest quantum reservoir computing (QRC) demonstration on real quantum hardware to date**, comparing 4-qubit and 156-qubit experimental IBM systems (Heron r3) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology.
+We present what is, to our knowledge, the **largest quantum reservoir computing (QRC) demonstration on gate-based superconducting hardware to date**, comparing 4-qubit and 156-qubit experiments on an IBM Heron r2 processor (`ibm_fez`, open plan) alongside high-fidelity 9-qubit Rigetti simulation employing the Steinegger-Räth (2025) feature engineering methodology.
 
 **Key Results:**
 - **IBM 4Q:** R² = 0.764 ± 0.018 (50 samples, 10 features)
-- **IBM 156Q:** R² = 0.723 ± 0.022 (200 samples, 156 features) — **Largest real QRC hardware**
+- **IBM 156Q:** R² = 0.723 ± 0.022 (200 samples, 156 features) — 156-qubit hardware run (`ibm_fez`)
 - **Rigetti 9Q (simulation):** R² = 0.959 ± 0.012 (800 samples, 3,375 features)
 
 ---
@@ -28,7 +32,7 @@ We present the **largest quantum reservoir computing (QRC) demonstration on real
 
 | Contribution | Details |
 |-------------|---------|
-| **Scale Record** | First experimental QRC on 156-qubit real hardware, surpassing prior records of 120Q and 108Q |
+| **Scale** | To our knowledge the first experimental QRC on a 156-qubit gate-based device (prior: 120 superconducting qubits, Yasuda et al. 2023; 108 neutral atoms, Kornjača et al. 2024) |
 | **Sample Efficiency Crisis** | 156Q (1.28 samples/feature) performs comparably to 4Q (5.0 samples/feature) — diminishing returns identified |
 | **Multi-System Validation** | Average R² = 0.908 across Lorenz-63, Rössler, and turbulence (13× range in Lyapunov exponents) |
 | **Feature Engineering Dominance** | 9Q with polynomial features outperforms 156Q hardware by ΔR² = 0.236 (p < 0.001) |
@@ -65,7 +69,7 @@ We present the **largest quantum reservoir computing (QRC) demonstration on real
 
 ![Topology Comparison](paper/figures/figure4_topology_comparison.png)
 
-**Quantum processor topologies.** (A) IBM Heron r3 heavy-hex lattice (156Q fragment showing 3 unit cells) with maximum degree 3 and reduced crosstalk. (B) Rigetti Novera 3×3 square lattice with full nearest-neighbor connectivity (33.3%) enabling dense coupling maps without SWAP gates.
+**Quantum processor topologies.** (A) IBM Heron r2 heavy-hex lattice (156Q fragment showing 3 unit cells) with maximum degree 3 and reduced crosstalk. (B) Rigetti Novera 3×3 square lattice with full nearest-neighbor connectivity (33.3%) enabling dense coupling maps without SWAP gates.
 
 ---
 
@@ -164,7 +168,7 @@ pdflatex qrc_paper.tex  # Run twice for references
 
 ## Hardware Specifications
 
-### IBM Heron r3 (156Q) — ibm_pittsburgh
+### IBM Heron r2 (156Q) — ibm_fez
 - **Released:** July 2025
 - **T1:** 300 μs | **T2:** 370 μs
 - **2Q Gate Error:** 5×10⁻⁴ (99.95% fidelity)
@@ -205,7 +209,7 @@ pdflatex qrc_paper.tex  # Run twice for references
 
 ## Acknowledgments
 
-- **IBM Quantum** — Hardware access through IBM Quantum Network
+- **IBM Quantum** — hardware access through the IBM Quantum Platform open plan; all runs on `ibm_fez`
 - **Rigetti Computing** — Continuous support for quantum simulations
 - **qBraid** — Platform for running Rigetti simulations
 

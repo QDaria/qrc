@@ -1,0 +1,22 @@
+{
+  "status": "SUCCESS",
+  "backend": "ibm_fez",
+  "job_id": "d4kqhgh0i6jc73df4690",
+  "n_qubits": 156,
+  "n_samples": 10,
+  "n_shots": 4000,
+  "reservoir_shape": [
+    10,
+    156
+  ],
+  "transpilation_analysis": {
+    "depth": 1674,
+    "two_qubit_gates": 9395,
+    "estimated_time_us": 3.7041218637992834,
+    "T2_limit_us": 200,
+    "coherence_ratio": 0.018520609318996416,
+    "within_coherence": true
+  },
+  "actual_cost": 64.0,
+  "timestamp": "2025-11-28T13:51:31.355777"
+}

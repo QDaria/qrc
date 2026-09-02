@@ -1,0 +1,12 @@
+{
+  "status": "SUCCESS",
+  "backend": "ibm_fez",
+  "job_id": "d4kdprd74pkc7386uov0",
+  "n_samples": 50,
+  "n_shots": 4000,
+  "reservoir_shape": [
+    50,
+    10
+  ],
+  "timestamp": "2025-11-27T23:22:23.027185"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "SUCCESS",
+  "backend": "ibm_fez",
+  "job_id": "d4m7kg10i6jc73dgg1n0",
+  "n_qubits": 156,
+  "n_samples": 50,
+  "n_shots": 4000,
+  "mean_sample_correlation": 0.3053073506530994,
+  "estimated_cost": 320.0,
+  "timestamp": "2025-11-30T17:12:35.891154"
+}

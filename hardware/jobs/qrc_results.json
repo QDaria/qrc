@@ -1,0 +1,7 @@
+{
+  "n_samples": 300,
+  "train_r2": 0.3553112078408719,
+  "forecast_steps": 0,
+  "lyapunov_times": 0.0,
+  "backend": "ibm_fez"
+}

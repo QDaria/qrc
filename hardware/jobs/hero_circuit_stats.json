@@ -1,0 +1,12 @@
+{
+  "n_qubits": 156,
+  "n_layers": 3,
+  "depth": 73,
+  "gate_counts": {
+    "rz": 1404,
+    "cz": 1257,
+    "sx": 936,
+    "measure": 156
+  },
+  "total_gates": 3753
+}

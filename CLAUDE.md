@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Quantum Reservoir Computing (QRC) research project demonstrating the largest QRC hardware experiment to date (156-qubit IBM Heron r3). Implements the Steinegger-Räth (2025) feature engineering methodology for chaotic system prediction.
+Quantum Reservoir Computing (QRC) research project: a 156-qubit experiment on IBM Heron r2 (`ibm_fez`, open plan) — to our knowledge the largest gate-based QRC hardware run — plus 4-qubit hardware and 9-qubit simulation baselines. Hardware provenance (job IDs, dates) lives in `hardware/PROVENANCE.md`. Implements the Steinegger-Räth (2025) feature engineering methodology for chaotic system prediction.
 
 ## Build/Run Commands
 
@@ -56,7 +56,7 @@ pdflatex qrc_paper_clean.tex
 - Import `qrc_steinegger_utils` module for shared QRC utilities (SteineggerQRC class, Lyapunov time calculations)
 
 **Data Flow:**
-1. Load time series data from `../01_original_data/` or `../02_new_turbulence/`
+1. Load time series data from `data/training_spectral.npy` (1000×100)
 2. Run QRC simulation → output to `data/*.json`
 3. Generate figures → output to `paper/figures/`
 
