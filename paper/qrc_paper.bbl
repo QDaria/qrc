@@ -21,13 +21,16 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{kubota2023qrc}
-T.~Kubota \emph{et~al.}, ``Quantum reservoir computing on 120 qubits,''
-  \emph{Physical Review Applied}, vol.~19, p. 034067, 2023.
+\bibitem{yasuda2023quantum}
+T.~Yasuda, Y.~Suzuki, T.~Kubota, K.~Nakajima, Q.~Gao, W.~Zhang, S.~Shimono,
+  H.~I. Nurdin, and N.~Yamamoto, ``Quantum reservoir computing with repeated
+  measurements on superconducting devices,'' \emph{arXiv preprint
+  arXiv:2310.06706}, 2023.
 
-\bibitem{senanian2024largescale}
-A.~Senanian \emph{et~al.}, ``Large-scale quantum reservoir computing with 108
-  superconducting qubits,'' \emph{arXiv preprint arXiv:2407.02553}, 2024.
+\bibitem{kornjaca2024largescale}
+M.~Kornja{\v{c}}a, H.-Y. Hu, C.~Zhao, J.~Wurtz, P.~Weinberg, M.~Hamdan
+  \emph{et~al.}, ``Large-scale quantum reservoir learning with an analog
+  quantum computer,'' \emph{arXiv preprint arXiv:2407.02553}, 2024.
 
 \bibitem{ibm2024eagle}
 {IBM Quantum}, ``{IBM} quantum system specifications,''
@@ -86,8 +89,8 @@ K.~Fujii and K.~Nakajima, ``Harnessing disordered-ensemble quantum dynamics for
   machine learning,'' \emph{Physical Review Applied}, vol.~8, p. 024030, 2017.
 
 \bibitem{ghosh2019quantum}
-S.~Ghosh \emph{et~al.}, ``Quantum reservoir computing for spatio-temporal
-  data,'' \emph{arXiv preprint arXiv:1909.09200}, 2019.
+S.~Ghosh, A.~Opala, M.~Matuszewski, T.~Paterek, and T.~C.~H. Liew, ``Quantum
+  reservoir processing,'' \emph{npj Quantum Information}, vol.~5, p.~35, 2019.
 
 \bibitem{mujal2021opportunities}
 P.~Mujal \emph{et~al.}, ``Opportunities in quantum reservoir computing and
@@ -95,8 +98,9 @@ P.~Mujal \emph{et~al.}, ``Opportunities in quantum reservoir computing and
   2100027, 2021.
 
 \bibitem{chen2020temporal}
-J.~Chen \emph{et~al.}, ``Temporal information processing with quantum reservoir
-  computing,'' \emph{Physical Review Applied}, vol.~14, p. 024065, 2020.
+J.~Chen, H.~I. Nurdin, and N.~Yamamoto, ``Temporal information processing on
+  noisy quantum computers,'' \emph{Physical Review Applied}, vol.~14, p.
+  024065, 2020.
 
 \bibitem{nokkala2021gaussian}
 J.~Nokkala \emph{et~al.}, ``Gaussian states of continuous-variable quantum
@@ -128,12 +132,14 @@ P.~R. Vlachas, W.~Byeon, Z.~Y. Wan, T.~P. Sapsis, and P.~Koumoutsakos,
   474, p. 20170844, 2018.
 
 \bibitem{negoro2018machine}
-M.~Negoro, K.~Mitarai, M.~Kitagawa, and K.~Fujii, ``Machine learning with
-  quantum measurements,'' \emph{arXiv preprint arXiv:1803.00745}, 2018.
+M.~Negoro, K.~Mitarai, K.~Fujii, K.~Nakajima, and M.~Kitagawa, ``Machine
+  learning with controllable quantum dynamics of a nuclear spin ensemble in a
+  solid,'' \emph{arXiv preprint arXiv:1806.10910}, 2018.
 
 \bibitem{steinegger2025quantum}
-A.~Steinegger and C.~R{\"a}th, ``Quantum reservoir computing using arrays of
-  {Rydberg} atoms,'' \emph{Scientific Reports}, vol.~15, p. 6201, 2025.
+J.~Steinegger and C.~R{\"a}th, ``Predicting three-dimensional chaotic systems
+  with four qubit quantum systems,'' \emph{Scientific Reports}, vol.~15, p.
+  6201, 2025.
 
 \bibitem{jaeger2001echo}
 H.~Jaeger, ``The ``echo state'' approach to analysing and training recurrent
@@ -147,8 +153,8 @@ W.~Maass, T.~Natschl{\"a}ger, and H.~Markram, ``Real-time computing without
 
 \bibitem{larger2017high}
 L.~Larger \emph{et~al.}, ``High-speed photonic reservoir computing using a
-  time-delay-based architecture,'' \emph{Physical Review X}, vol.~7, p. 011015,
-  2017.
+  time-delay-based architecture: Million words per second classification,''
+  \emph{Physical Review X}, vol.~7, p. 011015, 2017.
 
 \bibitem{tanaka2019recent}
 G.~Tanaka \emph{et~al.}, ``Recent advances in physical reservoir computing: A
@@ -177,8 +183,9 @@ G.~Vidal, ``Efficient classical simulation of slightly entangled quantum
   computations,'' \emph{Physical Review Letters}, vol.~91, p. 147902, 2003.
 
 \bibitem{orus2014practical}
-R.~Or{\'u}s, ``A practical introduction to tensor networks,'' \emph{Annals of
-  Physics}, vol. 349, pp. 117--158, 2014.
+R.~Or{\'u}s, ``A practical introduction to tensor networks: Matrix product
+  states and projected entangled pair states,'' \emph{Annals of Physics}, vol.
+  349, pp. 117--158, 2014.
 
 \bibitem{pope2000turbulent}
 S.~B. Pope, \emph{Turbulent Flows}.\hskip 1em plus 0.5em minus 0.4em\relax
@@ -195,11 +202,6 @@ G.~Boffetta and R.~E. Ecke, ``Two-dimensional turbulence,'' \emph{Annual Review
 \bibitem{hoerl1970ridge}
 A.~E. Hoerl and R.~W. Kennard, ``Ridge regression: Biased estimation for
   nonorthogonal problems,'' \emph{Technometrics}, vol.~12, pp. 55--67, 1970.
-
-\bibitem{zimmermann2020observing}
-M.~Zimmermann \emph{et~al.}, ``Observing topological transitions in a
-  programmable quantum simulator,'' \emph{Physical Review Research}, vol.~2, p.
-  033017, 2020.
 
 \bibitem{brunton2020machine}
 S.~L. Brunton, B.~R. Noack, and P.~Koumoutsakos, ``Machine learning for fluid
